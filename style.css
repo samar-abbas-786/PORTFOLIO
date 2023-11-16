@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+   
 }
 
 nav {
@@ -155,7 +156,7 @@ nav img:hover {
 @media screen and (max-width:390px) {
     body{
         width: 100%;
-        height: 100vh;
+        height: 100%;
     }
     nav{
         width: 100%;
@@ -176,6 +177,15 @@ nav img:hover {
         background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
         float: right;
         
+    
+    }
+    .list ul {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    
+    
+    
     
     }
     .list ul li {
@@ -205,11 +215,7 @@ nav img:hover {
         /* background-color: black;
         color: white; */
     }
-    .img{
-        
-         
-        
-     }
+    
     .img img{
         height: 200px;
         width: 200px;
@@ -245,7 +251,7 @@ nav img:hover {
         padding-top: 40px;
         font-family: sans-serif;
         position: absolute;
-        margin-top: 120px;
+        margin-top: 135px;
         margin-left: 31%;
     
     }
@@ -267,91 +273,8 @@ nav img:hover {
         background-color: rgb(247, 72, 8);
         border: none;
         margin-top: 40px;
-        margin-left:100px;
+        margin-left:110px;
        
     }
     
-}
-
-/*
-@media screen and (max-width:768px) {
-    body{
-        height: 100vh;
-        width: 100%;
-        background-color: black;
-    }
-    nav img{
-        height: 95px;
-        width: 300px;
-        margin-left: 32%;
-    }
-
-    .list {
-    height: 60px;
-    width: 100%;
-    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
-    float: right;
-
-}
-.img{
-    width: 30%;
-
-
-}
-.img img{
-    /* height: 300px;
-    width: 300px; */
-   /* margin-top: 90px;
-    margin-left: 310px;
-}
-#text {
-
-    width: 70%;
-    /* border: 4px solid white; */
-   /* padding-top: 9%;
-    padding-left: 70px;
-    margin-top: 240px;
-
-
-}
-*/
-
-/*#text h1 {
-    font-size: 60px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-}
-
-
-#text h2 {
-    font-size: 26px;
-    color: rgb(0, 255, 106);
-    padding-top: 40px;
-    font-family: sans-serif;
-    margin-top: 20px;
-
-}
-
-#text pre {
-    font-size: 23px;
-    font-family: 'Times New Roman', Times, serif;
-    padding-top: 10px;
-    line-height: 39px;
-}
-
-button {
-    height: 60px;
-    width: 210px;
-    border-radius: 30px;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: sans-serif;
-    background-color: rgb(247, 72, 8);
-    border: none;
-    margin-top: 60px;
-    margin-left: 280px;
-   
-}
-
 }
